@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CML" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CML" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CML" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../CML/Classification/logistic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Classification/logistic_result.txt" />
+		<Unit filename="../../CML/Classification/multinomial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/ada_boost/boost.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/ada_boost/data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/ada_boost/dectree.png" />
+		<Unit filename="../../CML/Face/ada_boost/header.h" />
+		<Unit filename="../../CML/Face/ada_boost/makefile" />
+		<Unit filename="../../CML/Face/ada_boost/paper.tex" />
+		<Unit filename="../../CML/Face/ada_boost/paraboost.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/ada_boost/partition.png" />
+		<Unit filename="../../CML/Face/ada_boost/sort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/ada_boost/t10k-images-idx3-ubyte" />
+		<Unit filename="../../CML/Face/ada_boost/t10k-labels-idx1-ubyte" />
+		<Unit filename="../../CML/Face/ada_boost/train-images-idx3-ubyte" />
+		<Unit filename="../../CML/Face/ada_boost/train-labels-idx1-ubyte" />
+		<Unit filename="../../CML/Face/ada_boost/tree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/ada_boost/util.h" />
+		<Unit filename="../../CML/Face/haar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/viola_jones/Face.pgm" />
+		<Unit filename="../../CML/Face/viola_jones/LICENSE" />
+		<Unit filename="../../CML/Face/viola_jones/Makefile" />
+		<Unit filename="../../CML/Face/viola_jones/class.txt" />
+		<Unit filename="../../CML/Face/viola_jones/class_a.txt" />
+		<Unit filename="../../CML/Face/viola_jones/haar.cpp" />
+		<Unit filename="../../CML/Face/viola_jones/haar.h" />
+		<Unit filename="../../CML/Face/viola_jones/image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/viola_jones/image.h" />
+		<Unit filename="../../CML/Face/viola_jones/info.txt" />
+		<Unit filename="../../CML/Face/viola_jones/main.cpp" />
+		<Unit filename="../../CML/Face/viola_jones/rectangles.cpp" />
+		<Unit filename="../../CML/Face/viola_jones/stdio-wrapper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Face/viola_jones/stdio-wrapper.h" />
+		<Unit filename="../../CML/Linear/cost_function.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/cost_function_result.txt" />
+		<Unit filename="../../CML/Linear/cost_min_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/cost_min_test_result.txt" />
+		<Unit filename="../../CML/Linear/cost_minimize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/linear.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/linear2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/linear2_mat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/linear2_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/linear2_test_result.txt" />
+		<Unit filename="../../CML/Linear/linear_mat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/linear_mat_result.txt" />
+		<Unit filename="../../CML/Linear/linear_mv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/linear_mv_result.txt" />
+		<Unit filename="../../CML/Linear/linear_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/Linear/linear_test_result.txt" />
+		<Unit filename="../../CML/NN/nn_example_01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/NN/nn_test01" />
+		<Unit filename="../../CML/NN/nn_test01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/NN/nn_test01.result" />
+		<Unit filename="../../CML/NN/nn_test02" />
+		<Unit filename="../../CML/NN/nn_test02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/NN/nn_test02.result" />
+		<Unit filename="../../CML/NN/nn_test03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/mnist/README.md" />
+		<Unit filename="../../CML/mnist/data/t10k-images-idx3-ubyte" />
+		<Unit filename="../../CML/mnist/data/t10k-labels-idx1-ubyte" />
+		<Unit filename="../../CML/mnist/data/train-images-idx3-ubyte" />
+		<Unit filename="../../CML/mnist/data/train-labels-idx1-ubyte" />
+		<Unit filename="../../CML/mnist/read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../CML/nn_mnist/img_mnist.h" />
+		<Unit filename="../../CML/nn_mnist/nn.h" />
+		<Unit filename="../../CML/nn_mnist/usr_types.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
