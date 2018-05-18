@@ -11,9 +11,15 @@ def get_data():
 	(x_train, t_train), (x_test, t_test) = load_mnist(normalize = True, flatten = True, one_hot_label = False)
 	return x_test, t_test
 
+...
+normalize : 입력 이미지의 픽셀 값을 0.0 ~ 1.0 사이의 값으로 정규화할지를 정한다.
+flatten : 입력 이미지를 평탄하게, 1차원 배열로 만들지 정한다
+one_hot_label 예)[0, 0, 1, 0, 0]과 같이 정답을 뜻하는 원소만 1이고(hot) 나머지는 모두 0인 배열
+...
+
 def init_network():
 	with open("sample_weight.pkl", 'rb') as f:
-		network = pickle.load(f)
+		network = pickle.load(f)                # 프로그램 실행 중 특정 객체를 파일로 저장하는 기능
 
 	return network
 
