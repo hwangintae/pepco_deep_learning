@@ -1,7 +1,7 @@
 import cv2
  
-faceCascPath = "C:/Users/Baek/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml"
-eyeCascPath = "C:/Users/Baek/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/cv2/data/haarcascade_eye.xml"
+faceCascPath ="c:/Users/int/Anaconda3/envs/dl/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml"
+eyeCascPath ="c:/Users/int/Anaconda3/envs/dl/Lib/site-packages/cv2/data/haarcascade_eye.xml"
  
 faceCascade = cv2.CascadeClassifier(faceCascPath)
 eye_cascade = cv2.CascadeClassifier(eyeCascPath)
