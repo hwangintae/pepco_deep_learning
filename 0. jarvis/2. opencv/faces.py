@@ -16,19 +16,24 @@ while True:
  
     faces = faceCascade.detectMultiScale(
         gray,
-        scaleFactor=1.1,
+        scaleFactor=1.5,
         minNeighbors=5,
-        minSize=(30, 30),
-        flags = cv2.CASCADE_SCALE_IMAGE
     )
  
     # Draw a rectangle around the faces
     for (x, y, w, h) in faces:
-        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                xcordEnd = x + w
+        ycordEnd = y + h
+        color = (255, 0, 0)
+        stroke = 2
+        cv2.rectangle(frame, (x, y), (xcordEnd, ycordEnd), color, stroke)
         
         # eye
         roi_gray = gray[y:y+h, x:x+w]
         roi_color = frame[y:y+h, x:x+w]
+
+        imgItem = "myImage.png"
+        cv2.imwrite(imgItem, roi_gray)
         
         eyes = eye_cascade.detectMultiScale(roi_gray)
         for (ex,ey,ew,eh) in eyes:
